@@ -43,10 +43,11 @@ The following Entity-Relationship Diagram (ERD) represents the original schema f
 ## ⭐ Star Schema Design
 
 The schema includes:
-- **Fact Table**: `fact_trip`
-- **Dimension Tables**: `dim_rider`, `dim_station`, `dim_payment`
+- **Fact Tables**: `fact_trip`, `fact_payment`
+- **Dimension Tables**: `dim_rider`, `dim_station`, `dim_date`
 
-Relationships are based on rider ID, station ID, and payment ID to enable analytic queries across time, usage, and demographics.
+Relationships are based on `rider_id`, `station_id`, and `time_id` to enable analytic queries across time, usage, and demographics.
+![Image](https://github.com/user-attachments/assets/b4b9d910-5b0d-4aba-90f4-5f1c9c900c34)
 
 ---
 
@@ -75,25 +76,25 @@ The following screenshots demonstrate key steps I personally completed during th
 
 ### ✅ 1. PostgreSQL to Blob Copy Wizard
 Proof of successful copy from Azure Database for PostgreSQL to Azure Blob Storage using Azure Synapse Ingest Wizard.
-
+<img width="959" alt="Image" src="https://github.com/user-attachments/assets/3950a2bd-4dd0-49d6-b0b8-7162d5a244aa" />
 
 ---
 
 ### ✅ 2. Azure Synapse Studio Interface
 A snapshot of the Synapse workspace showing workspace, linked services, and data pipeline execution.
-
+<img width="949" alt="Image" src="https://github.com/user-attachments/assets/5be7257a-cc2e-4e69-aa1b-0c77dae4004c" />
 
 ---
 
 ### ✅ 3. External Tables Load
 Illustrates the creation of external tables referencing files from Blob Storage.
+<img width="950" alt="Image" src="https://github.com/user-attachments/assets/c1c598f7-8a59-414e-bed1-beacac597e8c" />
 
 ---
 
 ### ✅ 4. Blob Storage – Extract Proof
 This screenshot confirms that the source CSV files (rider, trip, payment, station) were successfully exported from PostgreSQL and uploaded into Azure Blob Storage.
-
-
+<img width="952" alt="Image" src="https://github.com/user-attachments/assets/59d73830-5aed-40a2-bcbf-694fa09106e8" />
 
 ---
 
