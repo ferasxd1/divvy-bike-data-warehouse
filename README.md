@@ -94,7 +94,7 @@ Illustrates the creation of external tables referencing files from Blob Storage.
 
 ### ✅ 4. Blob Storage – Extract Proof
 This screenshot confirms that the source CSV files (rider, trip, payment, station) were successfully exported from PostgreSQL and uploaded into Azure Blob Storage.
-<img width="952" alt="Image" src="https://github.com/user-attachments/assets/59d73830-5aed-40a2-bcbf-694fa09106e8" />
+<img width="952" alt="Image" src="https://github.com/user-attachments/assets/34718ada-e594-46f8-87f6-b623b5f5e196" />
 
 ---
 
