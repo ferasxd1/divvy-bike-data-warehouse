@@ -74,27 +74,27 @@ If included, the `DataAnalysis.sql` file provides example queries for:
 
 The following screenshots demonstrate key steps I personally completed during the development of this Azure-based data warehouse project:
 
-### ✅ 1. PostgreSQL to Blob Copy Wizard
-Proof of successful copy from Azure Database for PostgreSQL to Azure Blob Storage using Azure Synapse Ingest Wizard.
-<img width="959" alt="Image" src="https://github.com/user-attachments/assets/3950a2bd-4dd0-49d6-b0b8-7162d5a244aa" />
-
----
-
-### ✅ 2. Azure Synapse Studio Interface
-A snapshot of the Synapse workspace showing workspace, linked services, and data pipeline execution.
+### ✅ 1. Azure Synapse Studio Interface  
+A snapshot of the Synapse workspace showing workspace, linked services, and data pipeline execution.  
 <img width="949" alt="Image" src="https://github.com/user-attachments/assets/5be7257a-cc2e-4e69-aa1b-0c77dae4004c" />
 
 ---
 
-### ✅ 3. External Tables Load
-Illustrates the creation of external tables referencing files from Blob Storage.
-<img width="950" alt="Image" src="https://github.com/user-attachments/assets/c1c598f7-8a59-414e-bed1-beacac597e8c" />
+### ✅ 2. PostgreSQL to Blob Copy Wizard  
+Proof of successful copy from Azure Database for PostgreSQL to Azure Blob Storage using Azure Synapse Ingest Wizard.  
+<img width="959" alt="Image" src="https://github.com/user-attachments/assets/3950a2bd-4dd0-49d6-b0b8-7162d5a244aa" />
 
 ---
 
-### ✅ 4. Blob Storage – Extract Proof
-This screenshot confirms that the source CSV files (rider, trip, payment, station) were successfully exported from PostgreSQL and uploaded into Azure Blob Storage.
+### ✅ 3. Blob Storage – Extract Proof  
+This screenshot confirms that the source CSV files (rider, trip, payment, station) were successfully exported from PostgreSQL and uploaded into Azure Blob Storage.  
 <img width="952" alt="Image" src="https://github.com/user-attachments/assets/34718ada-e594-46f8-87f6-b623b5f5e196" />
+
+---
+
+### ✅ 4. External Tables Load  
+Illustrates the creation of external tables referencing files from Blob Storage.  
+<img width="950" alt="Image" src="https://github.com/user-attachments/assets/c1c598f7-8a59-414e-bed1-beacac597e8c" />
 
 ---
 
