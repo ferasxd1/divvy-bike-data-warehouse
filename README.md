@@ -6,7 +6,7 @@ This project simulates a production analytics pipeline for bike share data using
 
 ## 🧱 Star Schema: Project Tables
 
-![Star Schema](Project%20Tables%20.png)
+![Star Schema](project_tables.png)
 
 
 ---
