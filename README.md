@@ -69,6 +69,34 @@ If included, the `DataAnalysis.sql` file provides example queries for:
 
 ---
 
+## 🖼️ Project Execution Screenshots
+
+The following screenshots demonstrate key steps I personally completed during the development of this Azure-based data warehouse project:
+
+### ✅ 1. PostgreSQL to Blob Copy Wizard
+Proof of successful copy from Azure Database for PostgreSQL to Azure Blob Storage using Azure Synapse Ingest Wizard.
+
+
+---
+
+### ✅ 2. Azure Synapse Studio Interface
+A snapshot of the Synapse workspace showing workspace, linked services, and data pipeline execution.
+
+
+---
+
+### ✅ 3. External Tables Load
+Illustrates the creation of external tables referencing files from Blob Storage.
+
+---
+
+### ✅ 4. Blob Storage – Extract Proof
+This screenshot confirms that the source CSV files (rider, trip, payment, station) were successfully exported from PostgreSQL and uploaded into Azure Blob Storage.
+
+
+
+---
+
 ## 👨‍💻 Author
 
 **Feras Zamil Khairallah**  
